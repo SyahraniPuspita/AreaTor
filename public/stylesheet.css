@@ -1,0 +1,179 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Do Hyeon', sans-serif;
+    background-color: #fcf8e8;
+}
+
+.header{
+    display: inline-flex;
+    height: 70px;
+    width: 100%;
+    background-color: #ecb390;
+    box-shadow: 1px 1px 5px black;
+}
+
+.header_logo img{
+    height: 60px;
+    margin-left: 250px;
+    margin-top: 5px;
+}
+
+ul{
+    margin-left: 600px;
+}
+li{
+    list-style: none;
+    font-family: 'Do Hyeon', sans-serif;
+    letter-spacing: 2px;
+    float: right;
+    
+    margin-left: 40px;
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+    text-shadow: 2px 2px black;
+}
+
+li:hover{
+    background-color: white;
+    color:#ecb390 ;
+    transition: 0.5s;
+    cursor: pointer;
+    text-shadow: 2px 2px white;
+}
+
+.main_content{
+    font-family: 'Do Hyeon', sans-serif;
+    margin: auto;
+    height: 651px;
+    width: 1050px;
+    /* background-color: black; */
+}
+
+.main_header h1{
+    margin-top: 0px;
+    padding-top: 50px;
+    color: #df7861;
+    letter-spacing: 7px;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px black;
+}
+
+.main_header p{
+    margin-top: 0px;
+    color: #df7861;
+    letter-spacing: 7px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px black;
+}
+
+.main_calc{
+    height: 390px;
+    width: 1000px;
+    margin: auto;
+    background-color: #d4e2d4;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px black;
+
+}
+
+.calc_wrap{
+    position: relative;
+    height: 390px;
+    /* background-color: yellow; */
+    margin: auto;
+    width: 900px
+}
+
+.shape_wrap{
+    display: inline-flex;
+    height: 30px;
+    width: 370px;
+    /* background-color: white; */
+    margin: 20px;
+    margin-top: 40px;
+}
+
+#pickShape{
+    margin-right: 7px;
+    letter-spacing: 3px;
+    margin-top: 9px;
+    font-size: 17px;
+    color: #df7861;
+    text-shadow: 1px 1px black;
+}
+
+#Shape{
+    border: 1px white;
+    color: #df7861;
+    border-radius: 15px;
+    padding: 4px;
+    font-family: 'Do Hyeon', sans-serif;
+    box-shadow: 1px 1px 5px black;
+}
+
+#Shape:hover{
+    box-shadow: 1px 1px 5px #d4e2d4;
+    transition: 0.5s;
+}
+
+.pictShape{
+    height: 230px;
+    width: 230px;
+    /* background-color: black; */
+    margin: 30px;
+}
+
+.pictShape img{
+    height: 230px;
+    width: 230px;
+}
+
+#shapeSubmit{
+    margin-left: 8px;
+    background-color: white;
+    border: 1px white;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 15px;
+    font-family: 'Do Hyeon', sans-serif;
+    padding: 9px;
+}
+
+#shapeSubmit:hover{
+    box-shadow: 1px 1px 5px #d4e2d4;
+    transition: 0.5s;
+}
+
+.input_wrap{
+    position: absolute;
+    height: 270px;
+    width: 300px;
+    background-color: white;
+    left: 500px;
+    top: 90px;
+    border-radius: 15px;
+}
+
+#labelA, #labelP, #labelL, #labelR, #labelB, #labelT{
+    margin-left: 50px;
+    font-size: 20px;
+}
+#inputA, #inputP, #inputL, #inputR, #inputB, #inputT, #inputR{
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 1px white;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+#result{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
